@@ -1,0 +1,73 @@
+body {
+    background-color: #0d0d0d;
+}
+
+h1 {
+    margin: 0px;font-size: 23px;
+}
+
+p {
+    margin-top: 0;text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 200px; margin: 5px;
+}
+
+#wrap {
+    background: #ffffff;width: 1000px; margin: auto;overflow: hidden;
+}
+
+#header {
+    background: #414141;width: 1000px;height: 150px;
+}
+
+#menu {
+    width: 1000px; height: 50px; background: #848484
+}
+
+#menu ul {
+    padding: 0; margin: 0;
+}
+
+#menu ul li {
+    display: inline;margin-left: 15px;line-height: 50px;font-size: 20px;border: 1px solid #8b8605; padding: 5px 10px;border-radius: 10px;background: black;
+}
+
+#menu ul li:hover {
+    background: #008979
+}
+
+#menu ul li a {
+    color: aqua;
+}
+
+#content {
+    width: 1000;overflow: hidden;
+}
+
+#kiri {
+    width: 680px;float: left;padding: 10px;
+}
+#kiri h1 {
+    margin: 10px; font-family: monospace
+}
+
+#kiri img {
+    float: left; margin: 5px; border: 2px solid #000000; border-radius: 30px
+}
+#kiri table th {
+    float: left; margin-left: 10px
+}
+
+#kanan {
+    width: 300px; float: left;
+}
+
+#footer {
+    width: 1000px;height: 50px;background: #575757;text-align: center;line-height: 50px;color: aqua;
+}
